@@ -16,7 +16,9 @@
     "items": [
       "guides/interacting-with-google-maps-api",
       "guides/deckgl-integration",
-      "guides/writing-examples"
+      "guides/ssr-and-frameworks",
+      "guides/writing-examples",
+      "guides/migrating-from-react-wrapper"
     ]
   },
   {
@@ -38,7 +40,8 @@
           "api-reference/components/info-window",
           "api-reference/components/marker",
           "api-reference/components/advanced-marker",
-          "api-reference/components/pin"
+          "api-reference/components/pin",
+          "api-reference/components/static-map"
         ]
       },
       {

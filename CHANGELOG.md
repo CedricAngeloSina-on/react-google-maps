@@ -1,5 +1,95 @@
 # Changelog
 
+## [1.5.1](https://github.com/visgl/react-google-maps/compare/v1.5.0...v1.5.1) (2025-01-28)
+
+
+### Bug Fixes
+
+* improve types ColorScheme and RenderingType ([#675](https://github.com/visgl/react-google-maps/issues/675)) ([785927a](https://github.com/visgl/react-google-maps/commit/785927a9b69e6a2c08ab013f607270d0dc0fc653))
+
+## [1.5.0](https://github.com/visgl/react-google-maps/compare/v1.4.3...v1.5.0) (2025-01-10)
+
+
+### Features
+
+* add StaticMap component with SSR support ([#633](https://github.com/visgl/react-google-maps/issues/633)) ([55acea2](https://github.com/visgl/react-google-maps/commit/55acea2a0b82727e487ee30fb788a05ba7dce153))
+
+## [1.4.3](https://github.com/visgl/react-google-maps/compare/v1.4.2...v1.4.3) (2025-01-07)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump react, react-dom and corresponding types ([#650](https://github.com/visgl/react-google-maps/issues/650)) ([02fe28f](https://github.com/visgl/react-google-maps/commit/02fe28fdc0e69a3ab0b3e8555b156b4c36d7c75c))
+* use deep compare effect to prevent infowindow close ([#642](https://github.com/visgl/react-google-maps/issues/642)) ([bfa85c1](https://github.com/visgl/react-google-maps/commit/bfa85c177796ac05cb626590c2467a31edab86eb))
+
+## [1.4.2](https://github.com/visgl/react-google-maps/compare/v1.4.1...v1.4.2) (2024-11-28)
+
+
+### Bug Fixes
+
+* remove explicit types for components using forwardRef ([#620](https://github.com/visgl/react-google-maps/issues/620)) ([8448a33](https://github.com/visgl/react-google-maps/commit/8448a336fdd2e489493bc40068bfa58d23267409)), closes [#619](https://github.com/visgl/react-google-maps/issues/619) [#617](https://github.com/visgl/react-google-maps/issues/617)
+
+## [1.4.1](https://github.com/visgl/react-google-maps/compare/v1.4.0...v1.4.1) (2024-11-22)
+
+
+### Bug Fixes
+
+* add explicit type for exported function components ([#611](https://github.com/visgl/react-google-maps/issues/611)) ([a5b0359](https://github.com/visgl/react-google-maps/commit/a5b035986872b3abb8c28d6659034c2a897476a3)), closes [#583](https://github.com/visgl/react-google-maps/issues/583)
+* add support Next.js 15 ([#609](https://github.com/visgl/react-google-maps/issues/609)) ([0e673c2](https://github.com/visgl/react-google-maps/commit/0e673c262a0a704a0d85a7f34cf4409965d11a8b))
+
+## [1.4.0](https://github.com/visgl/react-google-maps/compare/v1.3.0...v1.4.0) (2024-10-24)
+
+
+### Features
+
+* add `channel` prop to APIProvider ([#584](https://github.com/visgl/react-google-maps/issues/584)) ([6aa38e5](https://github.com/visgl/react-google-maps/commit/6aa38e52a2cf0cc856167489b879871622c74ea8))
+
+
+### Bug Fixes
+
+* adjust advanced marker markup to fix anchoring & collision behavior ([#577](https://github.com/visgl/react-google-maps/issues/577)) ([97a98b2](https://github.com/visgl/react-google-maps/commit/97a98b2a04b896a892351a178fecafa665c03113))
+
+## [1.3.0](https://github.com/visgl/react-google-maps/compare/v1.2.0...v1.3.0) (2024-09-30)
+
+
+### Features
+
+* add new `onError` prop for api provider ([#541](https://github.com/visgl/react-google-maps/issues/541)) ([bbe5709](https://github.com/visgl/react-google-maps/commit/bbe5709e1420e7260234b11a7749ed9b7804e9b7))
+
+
+### Bug Fixes
+
+* avoid unnecessary state-updates in api-provider ([#551](https://github.com/visgl/react-google-maps/issues/551)) ([46068c9](https://github.com/visgl/react-google-maps/commit/46068c9b3f3e930d464e2314181e2f6ed32a9aa7))
+
+## [1.2.0](https://github.com/visgl/react-google-maps/compare/v1.1.3...v1.2.0) (2024-09-16)
+
+
+### Features
+
+* add hover events and anchor points to advanced markers ([#472](https://github.com/visgl/react-google-maps/issues/472)) ([cc4a397](https://github.com/visgl/react-google-maps/commit/cc4a397f0ed2af12a28c21db6afad3a946527131))
+
+## [1.1.3](https://github.com/visgl/react-google-maps/compare/v1.1.2...v1.1.3) (2024-09-08)
+
+
+### Bug Fixes
+
+* **types:** add types-reference to google.maps ([#520](https://github.com/visgl/react-google-maps/issues/520)) ([ed19636](https://github.com/visgl/react-google-maps/commit/ed196365821d6ac8b97baa1a900842990f1959f2)), closes [#519](https://github.com/visgl/react-google-maps/issues/519)
+
+## [1.1.2](https://github.com/visgl/react-google-maps/compare/v1.1.1...v1.1.2) (2024-09-06)
+
+
+### Bug Fixes
+
+* **map:** undefined rendering-type and color-scheme ([#515](https://github.com/visgl/react-google-maps/issues/515)) ([c288d15](https://github.com/visgl/react-google-maps/commit/c288d15e2b4bfa5d952ae06c1f586888987f86c7))
+
+## [1.1.1](https://github.com/visgl/react-google-maps/compare/v1.1.0...v1.1.1) (2024-09-02)
+
+
+### Bug Fixes
+
+* **map:** add support for new and missing mapOptions ([#501](https://github.com/visgl/react-google-maps/issues/501)) ([f22af50](https://github.com/visgl/react-google-maps/commit/f22af50793622c2bee0508a4b57307dd18302d1b))
+* **map:** remove [@ts-expect-error](https://github.com/ts-expect-error) after @types/google.maps update ([deb2bc7](https://github.com/visgl/react-google-maps/commit/deb2bc733800cb99ad8edeb30059ad050a16ee86))
+
 ## [1.1.0](https://github.com/visgl/react-google-maps/compare/v1.0.2...v1.1.0) (2024-06-17)
 
 
